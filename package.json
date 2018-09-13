@@ -1,0 +1,19 @@
+{
+  "name": "api_rest",
+  "version": "1.0.0",
+  "description": "new api rest for chat app with nodejs and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmaman86/chat_api_rest.git"
+  },
+  "author": "David Maman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmaman86/chat_api_rest/issues"
+  },
+  "homepage": "https://github.com/dmaman86/chat_api_rest#readme"
+}
