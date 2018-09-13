@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 // upload routes
-
+var user_routes = require('./routes/user');
 
 // middlewares
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 });
 
 // routes
-
+app.use('/api', user_routes);
 
 // exports 
 module.exports = app;
