@@ -21,7 +21,8 @@ function saveUser( req, res ) {
         user.email = params.email;
         user.password = params.password;
         user.phone = params.phone;
-        user.saveDate = moment().format('LLLL');
+        // user.saveDate = moment().format('LLLL');
+        user.saveDate = moment().unix();
         user.role = 'USER';
         user.image = 'user.png';
         user.country = params.country;
