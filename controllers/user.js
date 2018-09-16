@@ -195,8 +195,8 @@ function uploadImagen(req, res){
         /*si fuera en windows tendria que ser asi:
         var file_split = file_path.split('\\');
         esto es porque el fichero en mac/linux la direcion es de otra manera */
-        //var file_split = file_path.split('/'); this is for linux/mac os
-        var file_split = file_path.split('\\');
+        var file_split = file_path.split('/');
+        // var file_split = file_path.split('\\');
         console.log("Line 197 " + file_split);
 
         var file_name = file_split[2];
