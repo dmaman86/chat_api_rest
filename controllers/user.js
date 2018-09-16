@@ -10,8 +10,6 @@ function saveUser( req, res ) {
     var params = req.body;
     var user = new User();
 
-    console.log( params );
-
     if( params.name 
         && params.last_name 
         && params.email 
